@@ -1,0 +1,21 @@
+group 'zinck.examples'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {
+        url artifactoryUrl
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+ext {
+    artifactoryUrl = 'https://artifactory.allstate.com/artifactory/libs-release'
+    artifactoryReleaseUrl = 'https://artifactory.allstate.com/artifactory/libs-release-local'
+}
