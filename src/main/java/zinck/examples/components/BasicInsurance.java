@@ -1,8 +1,8 @@
 package zinck.examples.components;
 
-public class HomeInsurance implements Insurance {
+public class BasicInsurance implements Insurance {
     @Override
     public String getInsuranceType() {
-        return "home";
+        return "basic";
     }
 }
