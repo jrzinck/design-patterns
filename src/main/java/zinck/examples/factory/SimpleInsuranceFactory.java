@@ -1,9 +1,9 @@
-package zinck.examples.factories;
+package zinck.examples.factory;
 
-import zinck.examples.components.CarInsurance;
-import zinck.examples.components.HomeInsurance;
-import zinck.examples.components.Insurance;
-import zinck.examples.components.RenterInsurance;
+import zinck.examples.component.insurance.CarInsurance;
+import zinck.examples.component.insurance.HomeInsurance;
+import zinck.examples.component.insurance.Insurance;
+import zinck.examples.component.insurance.RenterInsurance;
 
 public class SimpleInsuranceFactory {
     public Insurance getInsurance(String insuranceType) {
@@ -15,7 +15,7 @@ public class SimpleInsuranceFactory {
             case "renter":
                 return new RenterInsurance();
             default:
-                throw new RuntimeException("what are you doing !?");
+                throw new RuntimeException("what are you doing!?");
         }
     }
 }

@@ -1,11 +1,11 @@
 package zinck.examples;
 
 import org.junit.Test;
-import zinck.examples.components.Insurance;
-import zinck.examples.factories.CarInsuranceFactory;
-import zinck.examples.factories.HomeInsuranceFactory;
-import zinck.examples.factories.InsuranceFactory;
-import zinck.examples.factories.RenterInsuranceFactory;
+import zinck.examples.component.insurance.Insurance;
+import zinck.examples.factory.CarInsuranceFactory;
+import zinck.examples.factory.HomeInsuranceFactory;
+import zinck.examples.factory.InsuranceFactory;
+import zinck.examples.factory.RenterInsuranceFactory;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;

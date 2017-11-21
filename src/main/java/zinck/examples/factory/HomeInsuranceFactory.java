@@ -1,7 +1,7 @@
-package zinck.examples.factories;
+package zinck.examples.factory;
 
-import zinck.examples.components.HomeInsurance;
-import zinck.examples.components.Insurance;
+import zinck.examples.component.insurance.HomeInsurance;
+import zinck.examples.component.insurance.Insurance;
 
 public class HomeInsuranceFactory extends InsuranceFactory {
     @Override

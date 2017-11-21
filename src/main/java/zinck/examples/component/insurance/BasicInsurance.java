@@ -1,4 +1,4 @@
-package zinck.examples.components;
+package zinck.examples.component.insurance;
 
 public class BasicInsurance implements Insurance {
     @Override

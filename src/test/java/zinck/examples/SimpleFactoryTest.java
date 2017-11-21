@@ -1,8 +1,8 @@
 package zinck.examples;
 
 import org.junit.Test;
-import zinck.examples.components.Insurance;
-import zinck.examples.factories.SimpleInsuranceFactory;
+import zinck.examples.component.insurance.Insurance;
+import zinck.examples.factory.SimpleInsuranceFactory;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
