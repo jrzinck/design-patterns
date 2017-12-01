@@ -12,16 +12,6 @@ import static org.junit.Assert.assertThat;
 @SuppressWarnings("all")
 public class BasicFactoryTest {
     @Test
-    public void testCreateCarInsurance() {
-        CarInsurance carInsurance = createCarInsurance();
-        assertThat(carInsurance.getInsuranceType(), is("car"));
-    }
-
-    public CarInsurance createCarInsurance() {
-        return new CarInsurance();
-    }
-
-    @Test
     public void testBasicFactory() {
         Insurance carInsurance = createInsuranceByType("car");
         assertThat(carInsurance.getInsuranceType(), is("car"));
