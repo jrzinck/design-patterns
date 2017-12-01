@@ -6,7 +6,7 @@ import zinck.examples.component.insurance.CarInsurance;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class SuperBasicFactoryTest {
+public class BasicFactoryMethodTest {
     @Test
     public void testCreateCarInsurance() {
         CarInsurance carInsurance = createCarInsurance();

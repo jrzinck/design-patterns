@@ -10,7 +10,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 @SuppressWarnings("all")
-public class BasicFactoryTest {
+public class FactoryMethodTest {
     @Test
     public void testBasicFactory() {
         Insurance carInsurance = createInsuranceByType("car");
